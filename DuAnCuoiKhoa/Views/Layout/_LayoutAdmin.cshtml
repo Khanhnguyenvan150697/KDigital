@@ -1,0 +1,382 @@
+﻿@{
+    Layout = null;
+    DuAnCuoiKhoa.Models.NguoiDung currentUser = null;
+    DuAnCuoiKhoa.Models.NguoiDung currentUserAdmin = null;
+    if(Session["taikhoan"] != null)
+    {
+        currentUser = (DuAnCuoiKhoa.Models.NguoiDung)Session["taikhoan"];
+    }
+    if (Session["taikhoanAdmin"] != null)
+    {
+        currentUserAdmin = (DuAnCuoiKhoa.Models.NguoiDung)Session["taikhoanAdmin"];
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@ViewBag.Title</title>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <link href="~/Content/CssUser/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/CssUser/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/CssUser/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="~/Content/CssUser/css/price-range.css" rel="stylesheet" />
+    <link href="~/Content/CssUser/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/CssUser/css/main.css" rel="stylesheet" />
+    <link href="~/Content/CssUser/css/responsive.css" rel="stylesheet" />
+    <link href="~/Content/CssUser/css/HomeCss.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+
+
+</head>
+<body>
+    <!--Fixed header-->
+    <section id="content-header">
+        <!--header_start-->
+        <header id="header">
+            <div class="header-middle">
+                <!--header-middle-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="logo pull-left">
+                                <a href="@Url.Action("Index","Home")"><img id="LogoThuongHieu" src="~/Content/CssUser/images/home/Logo_DuAnCuoiKhoa.png" alt="" /></a>
+                            </div>
+                            <div class="btn-group pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                        Ngôn ngữ
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Tiếng Anh</a></li>
+                                        <li><a href="#">Tiếng Việt</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                        Tiền tệ
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Dollar</a></li>
+                                        <li><a href="#">VNĐ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="shop-menu pull-right">
+                                <ul class="nav navbar-nav">
+
+                                    @if (currentUser == null && currentUserAdmin == null)
+                                    {
+                                        <li><a href="@Url.Action("DangNhap","DangNhap")"><button id="btnDangNhap" type="submit" class="btn btn-default"><i class="fa fa-user"></i> Đăng nhập</button></a></li>
+                                        <li><a href="@Url.Action("DangKy","DangKy")"><button id="btnDangKy" type="submit" class="btn btn-default"><i class="fa fa-user"></i> Đăng ký</button></a></li>
+                                    }
+                                    @if (currentUser != null && currentUserAdmin == null)
+                                    {
+                                        <li><a href="#"><i class="fa fa-star"></i>Xin chào @currentUser.HoVaTen</a></li>
+                                        <li><a href="@Url.Action("DangXuat","DangNhap")"><i class="fa fa-crosshairs"></i>Đăng xuất</a></li>
+                                    }
+                                    @if (currentUserAdmin != null && currentUser == null)
+                                    {
+                                        <li><a href="#"><i class="fa fa-star"></i>Admin @currentUserAdmin.HoVaTen</a></li>
+                                        <li><a href="@Url.Action("DangXuat","DangNhap")"><i class="fa fa-crosshairs"></i>Đăng xuất</a></li>
+                                        <li><a href="@Url.Action("DanhSachSP","TrangQuanTri")"><i class="fa fa-star"></i>Trang quản trị</a></li>
+                                    }
+                                    @*@if (currentUser == null)
+                                        {
+                                            <li><a href="@Url.Action("DangNhap","DangNhap")"><button id="btnDangNhap" type="submit" class="btn btn-default"><i class="fa fa-user"></i> Đăng nhập</button></a></li>
+                                            <li><a href="@Url.Action("DangKy","DangKy")"><button id="btnDangKy" type="submit" class="btn btn-default"><i class="fa fa-user"></i> Đăng ký</button></a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="#"><i class="fa fa-star"></i>Xin chào @currentUser.HoVaTen</a></li>
+                                            <li><a href="@Url.Action("DangXuat","DangNhap")"><i class="fa fa-crosshairs"></i>Đăng xuất</a></li>
+                                        }*@
+                                    @Html.Action("GioHangPartial","GioHang")
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/header-middle-->
+
+            <div class="header-bottom">
+                <!--header-bottom-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="mainmenu pull-left">
+                                <ul class="nav navbar-nav collapse navbar-collapse">
+                                    <li><a href="@Url.Action("Index","Home")" class="active">Trang chủ</a></li>
+                                    <li class="dropdown">
+                                        <a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                                        <ul role="menu" class="sub-menu">
+                                            <li><a href="shop.html">Sản phẩm</a></li>
+                                            <li><a href="product-details.html">Chi tiết sản phẩm</a></li>
+                                            <li><a href="checkout.html">Kiểm tra</a></li>
+                                            <li><a href="cart.html">Giỏ hàng</a></li>
+                                            <li><a href="login.html">Đăng ký</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">Blog<i class="fa fa-angle-down"></i></a>
+                                        <ul role="menu" class="sub-menu">
+                                            <li><a href="blog.html">Các bài viết</a></li>
+                                            <li><a href="blog-single.html">Bài viết cá nhân</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">Liên hệ<i class="fa fa-angle-down"></i></a>
+                                        <ul role="menu" class="sub-menu">
+                                            <li><a href="#"><i class="fa fa-facebook"></i>  Facebook</a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i>   Twitter</a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i>  linkedin</a></li>
+                                            <li><a href="#"><i class="fa fa-dribbble"></i>  Drinbbble</a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i>   Google+</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="search_box pull-right">
+                                <input type="text" placeholder="Tìm kiếm" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/header-bottom-->
+        </header>
+        <!--/header_end-->
+    </section>
+    <!--Fixed header_end-->
+    <!--Form đăng nhập_start-->
+    @*@Html.Action("DangNhap_Partial", "DangNhap")*@
+    <!--Form đăng nhập_end-->
+    <!--Form đăng ký_start-->
+    @*@Html.Action("DangKy_Partial", "DangKy")*@
+    <!--Form đăng ký_end-->
+
+    @RenderBody()
+
+    <!--Footer_start-->
+    <footer id="footer">
+        <!--footer-top_start-->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="companyinfo">
+                            <h2><span>K</span>-DIGITAL</h2>
+                            <p>Địa chỉ mua bán sản phẩm Digital uy tín nhất</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/Content/CssUser/images/home/SendoLogo.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Sendo.vn</p>
+                                <h2>24 DEC 2014</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/Content/CssUser/images/home/ShopeeLogo.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Shopee.vn</p>
+                                <h2>24 DEC 2014</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/Content/CssUser/images/home/TiKiLogo.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Tiki.vn</p>
+                                <h2>24 DEC 2014</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="video-gallery text-center">
+                                <a href="#">
+                                    <div class="iframe-img">
+                                        <img src="~/Content/CssUser/images/home/LazadaLogo.png" alt="" />
+                                    </div>
+                                    <div class="overlay-icon">
+                                        <i class="fa fa-play-circle-o"></i>
+                                    </div>
+                                </a>
+                                <p>Lazada.vn</p>
+                                <h2>24 DEC 2014</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="address">
+                            <img src="~/Content/CssUser/images/home/map.png" alt="" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-top_end-->
+        <!--footer-widget_start-->
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="single-widget">
+                            <h2>Dịch vụ</h2>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="#">Trợ giúp online</a></li>
+                                <li><a href="#">Liên hệ với chúng tôi</a></li>
+                                <li><a href="#">Trạng thái đặt hàng</a></li>
+                                <li><a href="#">Thay đổi địa điểm</a></li>
+                                <li><a href="#">Chính sách khiếu nại</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-widget">
+                            <h2>Sản phẩm</h2>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="#">Máy ảnh</a></li>
+                                <li><a href="#">Ống kính</a></li>
+                                <li><a href="#">Macbook</a></li>
+                                <li><a href="#">Drone</a></li>
+                                <li><a href="#">Tripod</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-widget">
+                            <h2>Địa điểm</h2>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="#">Đà Nẵng</a></li>
+                                <li><a href="#">Hà Nội</a></li>
+                                <li><a href="#">Hải Phòng</a></li>
+                                <li><a href="#">TP. Hồ Chí Minh</a></li>
+                                <li><a href="#">Cần Thơ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-widget">
+                            <h2>K-Digital</h2>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="#">Chính sách công ty</a></li>
+                                <li><a href="#">Chế độ đãi ngộ</a></li>
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="#">Chương trình khuyến mãi</a></li>
+                                <li><a href="#">Đối tác</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <div class="single-widget">
+                            <h2>Tương tác với chúng tôi</h2>
+                            <form action="#" class="searchform">
+                                <input type="text" placeholder="Nhập vào địa chỉ Email" />
+                                <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                                <p>Mọi thông tin tương tác sẽ được gửi đến Email của bạn</p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--footer-widget_end-->
+        <!--footer-bottom_start-->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    @*<p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
+                        <p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>*@
+                </div>
+            </div>
+        </div>
+        <div id="Thongtinlienhe" class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactinfo">
+                        <ul class="nav nav-pills">
+                            <li><a href="#"><i class="fa fa-phone"></i> (+84) 033 688 xxxx</a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i> Duongminh150697@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-icons pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-bottom_end-->
+    </footer>
+    <!--/Footer_end-->
+
+    <script src="~/Content/CssUser/js/bootstrap.min.js"></script>
+    <script src="~/Content/CssUser/js/jquery.scrollUp.min.js"></script>
+    <script src="~/Content/CssUser/js/price-range.js"></script>
+    <script src="~/Content/CssUser/js/jquery.prettyPhoto.js"></script>
+    <script src="~/Content/CssUser/js/main.js"></script>
+    <script src="~/Content/plugin/ckeditor/ckeditor.js"></script>
+    <script src="~/Scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿@using DuAnCuoiKhoa.Models
+@model NguoiDung
+
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Layout/_LayoutAdmin.cshtml";
+}
+<div class="contentEmpty"> </div>
+<!--form đăng ký_start-->
+<section class="formDangKyThanhVien">
+    <div id="signupform" class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="signup-form">
+                    <!--sign up form-->
+                    
+                    <form action="/DangKy/DangKy" method="post" id="fomSingUp">
+                        <div id="SignUpThongTinCaNhan">
+                            <h2 class="ThogTinDagKy">Thông tin cá nhân</h2>
+
+                            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @id = "UserName", @placeholder = "Tên tài khoản" } })
+                            @Html.EditorFor(model => model.HoVaTen, new { htmlAttributes = new { @id = "HoVaTen", @placeholder = "Họ và tên" } })
+                            @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @id = "DiaChi", @placeholder = "Địa chỉ" } })
+                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @id = "Email", @placeholder = "Email" } })
+                            @Html.EditorFor(model => model.SoDienThoai, new { htmlAttributes = new { @id = "SoDienThoai", @placeholder = "SoDienThoai" } })
+
+                        </div>
+                        <div id="SignUpDangKyThanhVien">
+                            <h2 class="ThogTinDagKy">Đăng ký thành viên</h2>
+                            @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @id = "Password" }, placeholder = "Mật khẩu" })                           
+                            @Html.Password("NhapLaiMatKkhau", "", new { placeholder = "Nhập lại mật khẩu" })              
+                            @Html.DropDownList("CauHoi","--Câu hỏi bí mật--")
+                            @*@Html.EditorFor(model => model.CauHoi, new { htmlAttributes = new { @id = "CauHoi", @placeholder = "Câu hỏi bí mật" } })*@
+                            @Html.EditorFor(model => model.CauTraLoi, new { htmlAttributes = new { @id = "CauTraLoi", @placeholder = "--Câu trả lời--" } })
+                            
+                        </div>
+
+                        <button id="btndagky" type="submit" class="btn btn-default"><a id="btnDangKySubmit">Đăng ký</a></button>
+                    </form>
+                </div><!--/sign up form-->
+            </div>
+        </div>
+    </div>
+    <button id="btnThoatSignUp" type="submit" class="btn btn-default"><a id="btnThoatDangKy"  href="@Url.Action("Index","Home")">Thoát</a></button>
+</section>
+

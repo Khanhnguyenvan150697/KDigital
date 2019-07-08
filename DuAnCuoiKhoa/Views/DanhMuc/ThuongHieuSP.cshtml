@@ -1,0 +1,14 @@
+﻿@model IEnumerable<DuAnCuoiKhoa.Models.ThuongHieu>
+
+<div class="brands_products">
+    <h2>Thương hiệu</h2>
+    <div class="brands-name">
+        <ul class="nav nav-pills nav-stacked">
+            @foreach (var item in Model)
+            {
+                <li><a href="#"> <span class="pull-right"></span>@item.TenThuongHieu</a></li>
+            }
+        </ul>
+    </div>
+</div>
+

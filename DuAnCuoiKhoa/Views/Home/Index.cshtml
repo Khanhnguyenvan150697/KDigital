@@ -1,0 +1,107 @@
+﻿@model IEnumerable<DuAnCuoiKhoa.Models.SanPham>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/_LayoutAdmin.cshtml";
+}
+<!--slider_start-->
+<section id="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+                        <li data-target="#slider-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-sm-6">
+                                <h1><span>K</span>-DIGITAL</h1>
+                                <h2>Thỏa mãn đam mê nhiếp ảnh</h2>
+                                <p>Chúng tôi luôn mang lại dịch vụ tốt nhất cho khách hàng. Các bạn có thể liên hệ trực tiếp với chúng tôi tại các chi nhánh gần nhất. </p>
+                                <button type="button" class="btn btn-default get">Cùng tìm hiểu nào</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Content/CssUser/images/home/slideIMG1.png" class="slideIMG img-responsive" alt="" />
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>K</span>-DIGITAL</h1>
+                                <h2>K-DIGITAL luôn cập nhật công nghệ và đưa về những thiết bị mới nhất</h2>
+                                <p>Chúng tôi tự tin là đơn vị đầu tư và phân phối sản phẩm chính hãng với chất lượng dịch vụ hàng đầu. </p>
+                                <button type="button" class="btn btn-default get">Cùng tìm hiểu nào</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Content/CssUser/images/home/slideIMG2.png" class="slideIMG img-responsive" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-6">
+                                <h1><span>K</span>-DIGITAL</h1>
+                                <h2>Hãy đến với chúng tôi</h2>
+                                <p>K-DIGITAL luôn lấy khách hàng làm trung tâm, sự hài lòng của khách hàng là phương châm hàng đầu trong dịch vụ của chúng tôi.</p>
+                                <button type="button" class="btn btn-default get">Cùng tìm hiểu nào</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="~/Content/CssUser/images/home/slideIMG3.png" class="slideIMG img-responsive" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--slider_end-->
+
+<!--Content_start-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Danh mục</h2>
+                    <!--Danh mục sản phẩm_start-->
+                    @Html.Action("DanhMucSP_Partial", "DanhMuc")
+                    <!--Danh mục sản phẩm_end-->
+                    <!--Thương hiệu_start-->
+                    @Html.Action("ThuongHieuSP", "DanhMuc")
+                    <!--Thương hiệu_end-->
+                    <!--Mức giá_start-->
+                    <div class="price-range">
+                        <h2>Mức giá</h2>
+                        <div class="well text-center">
+                            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="3000" data-slider-step="5" data-slider-value="[250,1500]" id="sl2"><br />
+                            <b class="pull-left">$ 0</b> <b class="pull-right">$ 3000</b>
+                        </div>
+                    </div>
+                    <!--Mức giá_end-->
+                    <!--shipping_start-->
+                    <div class="shipping text-center">
+                        <img style="width:270px; height:329px;" src="~/Content/HinhAnhSP/shipping.png" alt="" />
+                    </div>
+                    <!--/shipping_end-->
+
+                </div>
+            </div>
+            @Html.Action("SanPhamMoi", "SanPhamTheoDM")
+        </div>
+    </div>
+</section>
+<!--Content_end-->
+
+

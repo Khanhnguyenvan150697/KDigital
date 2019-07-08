@@ -1,0 +1,295 @@
+﻿@using DuAnCuoiKhoa.Models
+@model List<ItemGioHang>
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Layout/_LayoutAdmin.cshtml";
+    <style>
+        #giohangtable {
+            border: 2px solid rgpa(0,0,0,.5);
+        }
+
+        .cart_menu {
+            background: #FE980F;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+        }
+
+        .table-condensed {
+            width: 1138px;
+            margin-left: 77px;
+            border: 1px solid #c5c4c0;
+        }
+
+        #idthead {
+            width: 51px;
+        }
+
+        .thanhtoan {
+            border: 1px solid ##c5c4c0;
+            width: 350px;
+            float: right;
+        }
+
+            .thanhtoan td {
+                font-size: 18px;
+            }
+
+        .btnDatHang {
+            margin-bottom: 10px;
+            margin-left: 1072px;
+        }
+
+        .btn-outline-primary {
+            background-color: orange;
+            color: white;
+        }
+
+            .btn-outline-primary:hover {
+                color: white;
+                background-color: crimson;
+                transition: 200ms;
+            }
+
+        .muaTiep {
+            margin-bottom: 10px;
+            margin-left: 1072px;
+        }
+
+        .btnMuaTiep {
+            padding: 5px 44px;
+        }
+
+            .btnMuaTiep:hover {
+                color: white;
+                background-color: crimson;
+                transition: 100ms;
+            }
+
+        .btnXoaSua:hover {
+            color: white;
+            background-color: crimson;
+            transition: 100ms;
+        }
+
+        .emptycart {
+            width: 400px;
+            margin-left: 450px;
+            margin-bottom: 50px;
+        }
+
+        .badge-danger {
+            background-color: crimson;
+        }
+
+        .thongtinmuahang {
+            margin-left: -400px;
+        }
+
+        .inputvalue {
+            width: 250px;
+            height: 35px;
+            margin-top: 20px;
+        }
+
+        #cartDatHang {
+            float: left;
+            margin-left: -450px;
+        }
+    </style>
+
+    // validate dữ liệu form thông tin khách hàng
+    <script>
+        $('#btnDatHang').click(function () {
+            var error = 0;
+
+            //Tên khách hàng
+            if ($('#HoVaTen').val() == "") {
+                $('#error_HoVaTen').text("Tên khách hàng không được để trống");
+                error++;
+            } else {
+
+                $('#HoVaTen').text("");
+            }
+
+            //Địa chỉ
+            if ($('#DiaChi').val() == "") {
+                $('#error_DiaChi').text("Địa chỉ không được để trống");
+                error++;
+            } else {
+
+                $('#DiaChi').text("");
+            }
+
+            //Số điện thoại
+            if ($('#SoDienThoai').val() == "") {
+                $('#error_SoDienThoai').text("Số điện thoại không được để trống");
+                error++;
+            } else {
+
+                $('#SoDienThoai').text("");
+            }
+
+            //Email
+            if ($('#Email').val() == "") {
+                $('#error_Email').text("Email không được để trống");
+                error++;
+            } else {
+                $('#Email').text("");
+            }
+            //var error;
+            //dinhdang = /^[0-9A-Za-z] + [0-9A-Za-z_]*@@[\w\d.]+\.\w{2,4}$/;
+            //KtEmail = dinhdang.text($('#Email').val());
+            //if (!KtEmail) {
+            //    $('#error_Email').text("Email không hợp lệ");
+            //    error++;
+            //}
+
+
+            if (error != 0) {
+                //Ngăn hành động submit
+                return false;
+            }
+        });
+
+/**/</script>
+}
+
+@if (Model == null || Model.Count == 0)
+{
+    <div style="margin-top:200px;">
+        <a href="@Url.Action("Index","Home")">
+            <h3 class="badge badge-danger" style="margin-left:340px; margin-bottom:20px; font-size:25px;">Giỏ hàng rỗng !!! Quý khách CLICK vào đây để mua hàng</h3>
+        </a>
+        <img src="~/Content/HinhAnhSP/emptycart.jpg" class="emptycart" />
+    </div>
+}
+else
+{
+    <div style="margin-top: 200px;">
+
+        <div class="btnDatHang">
+            @using (Html.BeginForm("DatHang", "GioHang"))
+            {
+                if (Session["TaiKhoan"] == null)
+                {
+                    // Khách hàng chưa có tài khoản nhập thông tin
+                    <div class="thongtinmuahang">
+                        <div id="cartDatHang">
+                            <img src="~/Content/HinhAnhSP/emptycart.jpg" style="width:350px;" />
+                        </div>
+
+                        <h3>Thông tin mua hàng</h3>
+                        <table class="ThongtinKhachHang">
+                            <tr>
+                                <td>@Html.TextBox("HoVaTen", null, new { @class = "inputvalue", @placeholder = "Họ và tên" })</td>
+                                <p style="color:red;" id="error_HoVaTen"></p>
+                            </tr>
+                            <tr>
+                                <td>@Html.TextBox("SoDienThoai", null, new { @class = "inputvalue", @placeholder = "Số điện thoại" })</td>
+                                <p style="color:red;" id="error_SoDienThoai"></p>
+                            </tr>
+                            <tr>
+                                <td>@Html.TextBox("DiaChi", null, new { @class = "inputvalue", @placeholder = "Địa chỉ" })</td>
+                                <p style="color:red;" id="error_DiaChi"></p>
+                            </tr>
+                            <tr>
+                                <td>@Html.TextBox("Email", null, new { @class = "inputvalue", @placeholder = "Email" })</td>
+                                <p style="color:red;" id="error_Email"></p>
+                            </tr>
+                            <tr>
+                                <td>@Html.Hidden("ID_NguoiDung", 1)</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                }
+                <input value="Xác nhận đặt hàng" onclick="alert('Bạn đã đặt hàng thành công')" type="submit" class="btn btn-outline-primary" id="btnDatHang" />
+
+            }
+        </div>
+        <div class="muaTiep">
+            <a href="@Url.Action("Index","Home")"><input value="Mua tiếp" type="submit" class="btn btn-primary btnMuaTiep" /></a>
+        </div>
+        <div class="table-responsive cart_info">
+            <table class="table table-condensed" id="giohangtable">
+                <thead id="idthead">
+                    <tr class="cart_menu">
+                        <td class="image">Sản phẩm</td>
+                        <td class="description"> Mô tả</td>
+                        @*<td class="price">Giá tiền</td>*@
+                        <td class="quantity">Số lượng</td>
+                        <td class="total">Thành tiền</td>
+                        <td class="Modified">Chỉnh sửa</td>
+                        <td>Xóa</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="cart_product">
+                                <a href=""><img src="@Url.Content("~/Content/HinhAnhSP/" + item.HinhAnh)" alt=""></a>
+                            </td>
+                            <td class="cart_description">
+                                <h4><a href="@Url.Action("ChiTietSanPham","ChiTietSanPham", new { id = item.ID_SanPham})">@item.TenSanPham</a></h4>
+                                <p>Mã sản phẩm: @item.ID_SanPham</p>
+                                <p>Giá: @item.DonGia.ToString("#,##")</p>
+                            </td>
+                            @*<td class="cart_price">
+                                    <p>@item.DonGia.ToString("#,##")</p>
+                                </td>*@
+                            <td class="cart_quantity">
+                                <div class="cart_quantity_button">
+                                    <label class="cart_quantity_input" type="text" name="quantity" style="margin:0px 10px; margin-top:-40px; font-size:30px; color:black;">@item.SoLuong</label>
+                                </div>
+                            </td>
+                            <td class="cart_total">
+                                <p class="cart_total_price" style="font-size:25px; margin-top:-35px; color: black;">@item.ThanhTien.ToString("#,##")</p>
+                            </td>
+                            <td class="ChinhSua">
+                                <a class="btn btn-primary btnXoaSua" href="@Url.Action("ChinhSuaGioHang","GioHang", new { @ID_SanPham = item.ID_SanPham})" style="margin-top:-35px; margin-left:10px; background-color:ora;">Sửa</a>
+                            </td>
+                            <td class="Delete">
+                                <a href="@Url.Action("XoaGioHang","GioHang",new { @ID_SanPham = item.ID_SanPham})" class="btn btn-primary btnXoaSua" style="margin-top:-35px;">Xóa</a>
+                                @*@Html.ActionLink("Xóa","XoaGioHang", new { @ID_SanPham = item.ID_SanPham})*@
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td colspan="4">&nbsp;</td>
+                        <td colspan="2">
+                            <table class="thanhtoan">
+                                <tbody>
+                                    <tr>
+                                        <td>Số lượng sản phẩm:</td>
+                                        <td>@ViewBag.TongSoLuong</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chiết khấu:</td>
+                                        <td>0%</td>
+                                    </tr>
+                                    <tr class="shipping-cost">
+                                        <td>Phí vận chuyển:</td>
+                                        <td>40,000 VNĐ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tổng tiền thanh toán:</td>
+                                        <td><span style="color:red;">@ViewBag.TongTien.ToString("#,##") VNĐ</span></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+
+}
+
+

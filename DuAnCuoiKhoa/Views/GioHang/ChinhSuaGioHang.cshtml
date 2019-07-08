@@ -1,0 +1,131 @@
+﻿@using DuAnCuoiKhoa.Models
+@model ItemGioHang
+@{
+    ViewBag.Title = "ChinhSuaGioHang";
+    Layout = "~/Views/Layout/_LayoutAdmin.cshtml";
+    <style>
+        #giohangtable {
+            border: 2px solid rgpa(0,0,0,.5);
+        }
+
+        .cart_menu {
+            background: #FE980F;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+        }
+
+        .table-condensed {
+            width: 1138px;
+            margin-left: 77px;
+            border: 1px solid #c5c4c0;
+        }
+
+        #idthead {
+            width: 51px;
+        }
+
+        .thanhtoan {
+            border: 1px solid ##c5c4c0;
+            width: 250px;
+            float: right;
+        }
+
+        #SoLuongUpdateTxt {
+            width: 50px;
+        }
+    </style>
+}
+
+@{
+    List<ItemGioHang> lstGioHang = (List<ItemGioHang>)ViewBag.GioHang;
+}
+
+<div style="margin-top: 200px;">
+    <div class="table-responsive cart_info">
+        <table class="table table-condensed" id="giohangtable">
+            <thead id="idthead">
+                <tr class="cart_menu">
+                    <td class="image">Sản phẩm</td>
+                    <td class="description"> Mô tả</td>
+                    @*<td class="price">Giá tiền</td>*@
+                    <td class="quantity">Số lượng</td>
+                    <td class="total">Thành tiền</td>
+                    <td class="Modified">Chỉnh sửa</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in lstGioHang)
+                {
+                    //sản phẩm có ID_SanPham được gửi từ trang XemGioHang
+                    if (Model.ID_SanPham == item.ID_SanPham)
+                    {
+                        using (Html.BeginForm("CapNhatGioHang", "GioHang"))
+                        {
+
+                            <tr>
+                                <td class="cart_product">
+                                    <a href=""><img src="@Url.Content("~/Content/HinhAnhSP/" + item.HinhAnh)" alt=""></a>
+                                </td>
+                                <td class="cart_description">
+                                    <h4><a href="@Url.Action("ChiTietSanPham","ChiTietSanPham", new { id = item.ID_SanPham})">@item.TenSanPham</a></h4>
+                                    <p>Mã sản phẩm: @item.ID_SanPham @Html.Hidden("ID_SanPham", item.ID_SanPham)</p>
+                                    <p>Giá: @item.DonGia.ToString("#,##")</p>
+                                </td>
+                                <td class="cart_quantity">
+                                    <div class="cart_quantity_button">
+                                        @Html.TextBox("SoLuong", item.SoLuong, new { @id = "SoLuongUpdateTxt" })
+                                    </div>
+                                </td>
+                                <td class="cart_total">
+                                    <p class="cart_total_price">@item.ThanhTien.ToString("#,##")</p>
+                                </td>
+                                @*<td class="ChinhSua">
+                                        <a class="btn btn-primary" style="margin-top:-10px; margin-left:10px; background-color:#2554C7;">Sửa</a>
+                                    </td>*@
+                                <td>
+                                    <input type="submit" value="Cập nhật" class="btn btn-primary" style="margin-top:-10px; margin-left:10px; background-color:orange;" />
+                                </td>
+                            </tr>
+                        }
+
+                    }
+                    else
+                    {
+                        <tr>
+                            <td class="cart_product">
+                                <a href=""><img src="@Url.Content("~/Content/HinhAnhSP/" + item.HinhAnh)" alt=""></a>
+                            </td>
+                            <td class="cart_description">
+                                <h4><a href="@Url.Action("ChiTietSanPham","ChiTietSanPham", new { id = item.ID_SanPham})">@item.TenSanPham</a></h4>
+                                <p>Mã sản phẩm: @item.ID_SanPham</p>
+                                <p>Giá: @item.DonGia.ToString("#,##")</p>
+                            </td>
+                            @*<td class="cart_price">
+                                    <p>@item.DonGia.ToString("#,##")</p>
+                                </td>*@
+                            <td class="cart_quantity">
+                                <div class="cart_quantity_button">
+                                    <label class="cart_quantity_input" type="text" name="quantity" style="margin:0px 10px; margin-top:-40px; font-size:30px;">@item.SoLuong</label>
+                                </div>
+                            </td>
+                            <td class="cart_total">
+                                <p class="cart_total_price">@item.ThanhTien.ToString("#,##")</p>
+                            </td>
+                            <td class="ChinhSua">
+                                <a class="btn btn-primary" href="@Url.Action("ChinhSuaGioHang","GioHang", new { @ID_SanPham = item.ID_SanPham})" style="margin-top:-10px; margin-left:10px; background-color:orange;">Sửa</a>
+                            </td>
+                            <td class="Delete">
+                                <a class="btn btn-primary" style="margin-top:-10px;">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+</div>

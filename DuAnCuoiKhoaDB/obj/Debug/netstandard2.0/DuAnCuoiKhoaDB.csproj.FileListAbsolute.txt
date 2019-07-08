@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoaDB\bin\Debug\netstandard2.0\DuAnCuoiKhoaDB.deps.json
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoaDB\bin\Debug\netstandard2.0\DuAnCuoiKhoaDB.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoaDB\obj\Debug\netstandard2.0\DuAnCuoiKhoaDB.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoaDB\obj\Debug\netstandard2.0\DuAnCuoiKhoaDB.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoaDB\obj\Debug\netstandard2.0\DuAnCuoiKhoaDB.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoaDB\obj\Debug\netstandard2.0\DuAnCuoiKhoaDB.AssemblyInfo.cs

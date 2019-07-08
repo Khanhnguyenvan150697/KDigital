@@ -1,0 +1,55 @@
+﻿@using DuAnCuoiKhoa.Models
+@model IEnumerable<SanPham>
+@{
+    ViewBag.Title = "QuanLySanPham";
+    Layout = "~/Views/Layout/_LayoutAdmin.cshtml";
+    //WebGrid grid = new WebGrid(source: Model, rowsPerPage: 9);
+}
+
+
+
+
+
+<div style="margin-top:200px; width:800px; margin-left:230px">
+    @grid.GetHtml(
+ tableStyle: "gridTable",
+ headerStyle: "gridHead",
+ footerStyle: "gridFooter",
+ rowStyle: "gridRow",
+ alternatingRowStyle: "gridAltRow",
+ columns: grid.Columns(
+     grid.Column("ID_SanPham", "ID sản phẩm"),
+     grid.Column("TenSanPham", "Tên sản phẩm"),
+     grid.Column("ThongTinChiTiet", "Thông tin chi tiết", format: p => Html.Raw(p.ThongTinChiTiet)),
+     //grid.Column("Avatar", "Hình ảnh", format: p => Html.Raw("<img src=\"../Content/HinhAnhSP/" + p.Avatar + "\" />")),
+     grid.Column("Avatar", "Hình ảnh", format: p => Html.Raw("<img src=\"../Content/HinhAnhSP/" + p.Avatar + "\" />")),
+     grid.Column("Chỉnh sửa", format: p => Html.ActionLink("Chỉnh sửa", "ChinhSua", new { id = p.ID_SanPham })),
+     grid.Column("Xoá", format: p => Html.ActionLink("Xóa", "Xoa", new { id = p.ID_SanPham }))))
+</div>
+
+<style>
+    .gridTable {
+        border: 1px solid #808080;
+        margin-left: -86px;
+        width: 1000px;
+    }
+
+    .gridHead {
+        background-color: crimson;
+    }
+
+    .gridRow {
+        color: white;
+        background-color: forestgreen;
+    }
+
+    .gridAltRow {
+        color: white;
+        background-color: orange;
+    }
+
+    .gridFooter {
+        color: black;
+    }
+</style>
+

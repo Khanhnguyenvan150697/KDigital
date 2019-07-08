@@ -1,0 +1,23 @@
+﻿@{ 
+    <style>
+        .GioHanginfo{
+            float:left;
+            margin-top:4px;
+            border: 2px solid #b9b9b9;
+            padding:4px;
+            transition: 200ms;
+        }
+        .GioHanginfo:hover{
+            border: 2px solid orange;
+        }
+        .SL_DG{
+            margin-left:-25px;
+        }
+    </style>
+}
+
+<div class="GioHanginfo" id="divGioHangInfo">
+    <li><a href="@Url.Action("XemGioHang","GioHang")"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+    <li class="SL_DG"> @ViewBag.TongTien.ToString("#,##") VNĐ (<span>@ViewBag.TongSoLuong</span>SP)</li>
+</div>
+

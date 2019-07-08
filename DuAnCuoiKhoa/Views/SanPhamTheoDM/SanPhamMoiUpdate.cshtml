@@ -1,0 +1,39 @@
+﻿@using PagedList
+@using PagedList.Mvc
+
+@model IPagedList<DuAnCuoiKhoa.Models.SanPham>
+
+<div class="col-sm-9 padding-right">
+    <div class="features_items">
+        <h2 class="title text-center">Sản phẩm mới</h2>
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-4">
+                <div class="product-image-wrapper">
+                    <div class="single-products">
+                        <div class="productinfo text-center">
+                            <img src="@Url.Content("~/Content/HinhAnhSP/" + item.Avatar)" alt="" />
+                            <h2>@string.Format("{0:n0}", item.GiaGoc).Replace(",", ".") VNĐ</h2>
+                            <p>@item.TenSanPham</p>
+                            <a href="@Url.Action("ThemGioHang","GioHang", new { @ID_SanPham = item.ID_SanPham, @strURL = Request.Url.ToString()})" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                            <a href="@Url.Action("ChiTietSanPham", "ChiTietSanPham", new {id = item.ID_SanPham})" class="btn btn-default add-to-cart"><i></i>Chi tiết</a>
+                        </div>
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <p>Máy ảnh Canon 5D Mark IV ra mắt với trọng trách tiếp nối sứ mệnh của dòng máy ảnh EOS 5D được coi là dòng máy nổi bật nhất của kỷ nguyên công nghệ số. Có ngoại hình gần như giống hệt thế hệ trước, tuy nhiên, Canon 5D Mark IV được trang bị một loạt các phát triển trọng yếu như cảm biến có độ phân giải cao, hệ thống lấy nét tự động Dual Pixel AF, khả năng quay Video 4K, màn hình cảm ứng, tích hợp kết nối Wifi/NFC.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div class="PhanTrang">
+    <div class="pagination">
+        <span class="pagelist">Trang: @(Model.PageNumber < Model.PageCount ? Model.PageNumber : 0)/@Model.PageCount</span>
+        @Html.PagedListPager(Model, Page => Url.Action("Index", "Home", new { Page }))
+    </div>
+</div>
+

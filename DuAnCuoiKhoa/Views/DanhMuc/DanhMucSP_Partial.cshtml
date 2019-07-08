@@ -1,0 +1,17 @@
+﻿@using DuAnCuoiKhoa.Models
+@model IEnumerable<DanhMucSP>
+
+<div class="panel-group category-products" id="DanhMucSanPham">
+    @foreach (var item in Model)
+    {
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="@Url.Action("SanPhamTheoDanhMuc", "SanPhamTheoDM", new { id = item.ID_DanhMuc })">
+                        @item.TenDanhMuc
+                    </a>
+                </h4>
+            </div>
+        </div>
+    }
+</div>

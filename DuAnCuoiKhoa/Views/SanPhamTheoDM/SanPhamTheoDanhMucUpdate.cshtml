@@ -1,0 +1,80 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<DuAnCuoiKhoa.Models.SanPham>
+
+
+@{
+    ViewBag.Title = "SanPhamTheoDanhMuc";
+    Layout = "~/Views/Layout/_LayoutAdmin.cshtml";
+    var danhMuc = (DuAnCuoiKhoa.Models.DanhMucSP)ViewBag.DanhMuc;
+}
+
+<section id="SPTheoDanhMuc">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Danh mục</h2>
+                    <!--Danh mục sản phẩm_start-->
+                    @Html.Action("DanhMucSP_Partial", "DanhMuc")
+                    <!--Danh mục sản phẩm_end-->
+                    <!--Thương hiệu_start-->
+                    @Html.Action("ThuongHieuSP", "DanhMuc")
+                    <!--Thương hiệu_end-->
+                    <!--Mức giá_start-->
+                    <div class="price-range">
+                        <h2>Mức giá</h2>
+                        <div class="well text-center">
+                            <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="3000" data-slider-step="5" data-slider-value="[250,1500]" id="sl2"><br />
+                            <b class="pull-left">$ 0</b> <b class="pull-right">$ 3000</b>
+                        </div>
+                    </div>
+                    <!--Mức giá_end-->
+                    <!--shipping_start-->
+                    <div class="shipping text-center">
+                        <img style="width:270px; height:329px;" src="~/Content/HinhAnhSP/shipping.png" alt="" />
+                    </div>
+                    <!--/shipping_end-->
+
+                </div>
+            </div>
+            <div class="col-sm-9 padding-right">
+                <!--Sẩn phẩm mới_start-->
+                <div class="features_items">
+                    <h2 class="title text-center">@(danhMuc != null ? danhMuc.TenDanhMuc : "")</h2>
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="@Url.Content("~/Content/HinhAnhSP/" + item.Avatar)" alt="" />
+                                        <h2>@string.Format("{0:n0}", item.GiaGoc).Replace(",", ".") VNĐ</h2>
+                                        <p>@item.TenSanPham</p>
+                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+                                        <a href="@Url.Action("ChiTietSanPham", "ChiTietSanPham", new {id = item.ID_SanPham})" class="btn btn-default add-to-cart"><i></i>Chi tiết</a>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <div class="overlay-content">
+                                            <p>Máy ảnh Canon 5D Mark IV ra mắt với trọng trách tiếp nối sứ mệnh của dòng máy ảnh EOS 5D được coi là dòng máy nổi bật nhất của kỷ nguyên công nghệ số. Có ngoại hình gần như giống hệt thế hệ trước, tuy nhiên, Canon 5D Mark IV được trang bị một loạt các phát triển trọng yếu như cảm biến có độ phân giải cao, hệ thống lấy nét tự động Dual Pixel AF, khả năng quay Video 4K, màn hình cảm ứng, tích hợp kết nối Wifi/NFC.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+
+                <!--Sản phẩm mới_end-->
+
+            </div>
+        </div>
+    </div>
+</section>
+<div class="PhanTrang">
+    <span class="pagelist">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</span>
+    @Html.PagedListPager(Model, trang => Url.Action("SanPhamTheoDanhMuc", new { trang }))
+</div>
+

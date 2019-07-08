@@ -1,0 +1,111 @@
+﻿@using PagedList
+@using PagedList.Mvc
+
+@model IPagedList<DuAnCuoiKhoa.Models.SanPham>
+@{
+    ViewBag.Title = "DanhSachSP";
+    Layout = "~/Views/Layout/_AdminLayout.cshtml";
+    <style>
+        th {
+            width: 120px;
+            font-family: -Webdings;
+            text-align: center;
+            background-color:cornflowerblue;
+            color:white;
+        }
+
+        td {
+            text-align: center;
+            background-color:azure;
+        }
+        .pagination{
+            width:500px;            
+        }
+        .PhanTrang{
+            margin-left:0px;
+        }
+    </style>
+}
+
+    <h2 style="text-align:center;">DANH SÁCH SẢN PHẨM</h2>
+
+    <p>
+        @Html.ActionLink("Thêm mới sản phẩm","ThemMoiSP","TrangQuanTri", new { @class="btn btn-primary"})
+        @*<span class="btn btn-primary">Thêm mới sản phẩm</span>*@
+    </p>
+    <table class="table">
+        <tr>
+            <th style="width:50px;">
+                <span>Mã SP</span>
+            </th>
+            <th>
+                <span>Tên sản phẩm</span>
+            </th>
+            <th>
+                <span>Avatar</span>
+            </th>
+
+            <th>
+                <span>Chi tiết</span>
+            </th>
+            <th>
+                <span>Thương hiệu</span>
+            </th>
+            <th>
+                <span>Giá sản phẩm</span>
+            </th>
+            <th>
+                <span>Giá KM</span>
+            </th>
+            <th>
+                <span>Ngày đăng</span>
+            </th>
+            <th>
+                <span>Hiệu chỉnh</span>
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID_SanPham)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenSanPham)
+                </td>
+                <td>
+                    <img src="@Url.Content("~/Content/HinhAnhSP/" + item.Avatar)" />
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ThongTinChiTiet)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ThuongHieu.TenThuongHieu)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaGoc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaKhuyenMai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayDang)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Chỉnh sửa", "ChinhSuaSP", new { ID_SanPham = item.ID_SanPham }) |
+                    @Html.ActionLink("Xóa", "XoaSP", new { @id = item.ID_SanPham }, new { onclick="return confirm('Bạn có muốn xóa sản phẩm?')"}) 
+                </td>
+            </tr>
+        }
+    </table>
+    <div class="PhanTrang">
+        <div class="pagination">
+            <span class="pagelist">Trang: @(Model.PageNumber <= Model.PageCount ? Model.PageNumber : 0)/@Model.PageCount</span>
+            @Html.PagedListPager(Model, Page => Url.Action("DanhSachSP", "TrangQuanTri", new { Page }))
+        </div>
+    </div>

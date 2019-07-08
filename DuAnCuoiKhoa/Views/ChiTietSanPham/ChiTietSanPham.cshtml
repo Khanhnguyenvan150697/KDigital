@@ -1,0 +1,195 @@
+﻿@model DuAnCuoiKhoa.Models.SanPham
+@{
+    ViewBag.Title =Model.TenSanPham;
+    Layout = "~/Views/Layout/_LayoutAdmin.cshtml";
+}
+
+<!--Form Chi tiết sản phẩm-->
+<section id="ChitietSP_content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Danh mục</h2>
+                    @Html.Action("DanhMucSP_Partial", "DanhMuc")
+                    @Html.Action("ThuongHieuSP", "DanhMuc")
+                </div>
+            </div>
+
+            <div class="col-sm-9 padding-right">
+                <div class="product-details">
+                    <!--product-details-->
+                    <div class="col-sm-5">
+                        <div class="view-product">
+                            @*<img src="~/Content/HinhAnhSP/shipping.png" />*@
+                            <img src="@Url.Content("~/Content/HinhAnhSP/" + Model.Avatar)"/>
+                            <h3>Phóng to</h3>
+                        </div>
+                        <div id="similar-product" class="carousel slide" data-ride="carousel">
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Canon 5D Mark IV (Body).png" alt=""></a>
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Fujifilm XH1 (Body).png" alt=""></a>
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Sony A7 Mark III (Body).png" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Nikon D850 (Body).png" alt=""></a>
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Fujifilm XH1 (Body).png" alt=""></a>
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Sony A7 Mark III (Body).png" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Nikon D850 (Body).png" alt=""></a>
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Fujifilm XH1 (Body).png" alt=""></a>
+                                    <a href=""><img class="imgSileDetailPage" src="~/Content/HinhAnhSP/Sony A7 Mark III (Body).png" alt=""></a>
+                                </div>
+
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left item-control" href="#similar-product" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a class="right item-control" href="#similar-product" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="product-information">
+                            <!--/product-information-->
+                            <img src="images/product-details/new.jpg" class="newarrival" alt="" />
+                            <h2>@Model.TenSanPham</h2>
+                            <p>ID sản phẩm: @Model.ID_SanPham</p>
+                            <img src="images/product-details/rating.png" alt="" />
+                            <span>
+                                <span>Giá: @string.Format("{0:n0}", Model.GiaGoc).Replace(",", ".") VNĐ</span>
+                                <label>Số lượng:</label>
+                                <input type="text" value="3" />
+                                <button type="button" class="btn btn-fefault cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <a href="@Url.Action("ThemGioHang","GioHang", new { @ID_SanPham = Model.ID_SanPham, @strURL = Request.Url.ToString()})">Thêm vào giỏ hàng</a>
+                                </button>
+                            </span>
+                            <p><b>Có sẵn:</b> 3 sản phẩm</p>
+                            <p><b>Tình trạng: </b>Mới</p>
+                            <p><b>Thương hiệu: </b>@Model.TenThuongHieu</p>
+                            <a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
+                        </div><!--/product-information-->
+                    </div>
+                </div><!--/product-details-->
+
+                <div class="category-tab shop-details-tab">
+                    <!--category-tab-->
+                    <div class="col-sm-12">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#details" data-toggle="tab">Giới thiệu</a></li>
+                            <li><a href="#companyprofile" data-toggle="tab">Hình ảnh</a></li>
+                            <li class="active"><a href="#reviews" data-toggle="tab">Nhận xét</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 tab-content">
+                        <div class="tab-pane fade" id="details">
+                            <div class="col-sm-12">
+                                @Html.Raw(Model.GioiThieu)
+                                @*<p id="GioiThieuSP">
+                                    Mới đây, những người yêu thích bộ môn nhiếp ảnh như vỡ òa khi mà hãng Canon ra mắt một siêu phẩm mới máy ảnh Canon EOS 5D Mark IV. Chiếc DSLR này đã đáp ứng được sự kỳ vọng mà tất cả mọi người mong đợi với những cải tiến vượt bậc bởi những công nghệ tiên tiến nhất hiện nay đem đến cho người dùng những tiện ích nổi trội.
+                                    Máy ảnh này có trọng lượng bao gồm cả pin là 890g. Thân máy được làm bằng hợp kim ma giê cao cấp, sử dụng các lớp keo cao su dán kín tại những khớp nối khung máy đảm bảo kháng nước và chiu thời tiết. Về bề ngoài hầu như không có gì thay đổi so với người đàn anh 5 D Mark III.
+                                </p>
+                                <img class="HinhAnhTrangChiTiet" src="~/Content/HinhAnhSP/Fujifilm XH1 (Body).png">
+                                <p>Máy ảnh Canon EOS 5D Mark IV sử dụng cảm biến hình ảnh CMOS 30,4Mpx (cho ảnh ở độ phân giải 6.720x4.480) với bộ xử lý hình ảnh Digic 6+ cho phép xử lý hình ảnh hiệu quả hơn, nâng cao chất lượng hình ảnh và tốc độ chụp ảnh cải thiện đáng kể đạt mức 7 hình/giây. Một điểm nhấn độc đáo của 5D Mark IV đó là tính năng Lens Optical Corection - tính năng giúp xử lý lệch quang sai, hay bị méo, viền tím ngay trên các bức ảnh (chỉ hỗ trợ JPEG). </p>
+                                <img class="HinhAnhTrangChiTiet" src="~/Content/HinhAnhSP/Sony A7 R III (Body).png">*@
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="companyprofile">
+                            <img class="HinhAnhTrangChiTiet" src="~/Content/HinhAnhSP/Canon 5D Mark III (Body).png">
+                            <img class="HinhAnhTrangChiTiet" src="~/Content/HinhAnhSP/Fujifilm XH1 (Body).png">
+                            <img class="HinhAnhTrangChiTiet" src="~/Content/HinhAnhSP/Nikon D850 (Body).png">
+                            <img class="HinhAnhTrangChiTiet" src="~/Content/HinhAnhSP/Sony A7 Mark III (Body).png">
+                            <img class="HinhAnhTrangChiTiet" src="~/Content/HinhAnhSP/Sony A7 R III (Body).png">
+                        </div>
+
+                        <div class="tab-pane fade" id="tag">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="images/home/gallery1.jpg" alt="" />
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="images/home/gallery2.jpg" alt="" />
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="images/home/gallery3.jpg" alt="" />
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="images/home/gallery4.jpg" alt="" />
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade active in" id="reviews">
+                            <div class="col-sm-12">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-user"></i>Khách hàng</a></li>
+                                    <li><a href=""><i class="fa fa-clock-o"></i>12:41 PM</a></li>
+                                    <li><a href=""><i class="fa fa-calendar-o"></i>16/05/2019</a></li>
+                                </ul>
+                                <p><b>Nhận xét</b></p>
+
+                                <form action="#">
+                                    <span>
+                                        <input type="text" placeholder="Tên của bạn" />
+                                        <input type="email" placeholder="Email" />
+                                    </span>
+                                    <textarea name=""></textarea>
+                                    <b>Xếp hạng: </b> <img src="images/product-details/rating.png" alt="" />
+                                    <button type="button" class="btn btn-default pull-right">
+                                        Đăng
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!--/category-tab-->
+            </div>
+        </div>
+    </div>
+</section>
+<!--Form Chi tiết sản phẩm-->

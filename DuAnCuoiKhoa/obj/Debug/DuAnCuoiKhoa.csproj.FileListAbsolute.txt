@@ -1,0 +1,348 @@
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll.config
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.pdb
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe.config
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.rsp
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe.config
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.rsp
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Console.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.rsp
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\WebGrease.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.pdb
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CopyComplete
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.dll
+C:\Users\Administrator\source\repos\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.pdb
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll.config
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.pdb
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.rsp
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.rsp
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\WebGrease.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.pdb
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csprojAssemblyReference.cache
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CopyComplete
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.dll
+C:\Users\Administrator\Dropbox\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.pdb
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll.config
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.pdb
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe.config
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.rsp
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe.config
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.rsp
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Managed.Core.targets
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.AppContext.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Collections.Immutable.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Console.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Compression.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Reflection.Metadata.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.AccessControl.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Claims.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Principal.Windows.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.ValueTuple.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XmlDocument.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe.config
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.rsp
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe.config
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.Web.Infrastructure.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\WebGrease.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.pdb
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.pdb
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csprojAssemblyReference.cache
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CoreCompileInputs.cache
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CopyComplete
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.dll
+E:\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.pdb
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll.config
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\DuAnCuoiKhoa.pdb
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.exe.config
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csc.rsp
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.exe.config
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\csi.rsp
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.Managed.Core.targets
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.AppContext.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Collections.Immutable.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Console.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Compression.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.IO.Pipes.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Reflection.Metadata.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.AccessControl.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Claims.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Security.Principal.Windows.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.ValueTuple.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XmlDocument.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.exe.config
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\vbc.rsp
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\roslyn\VBCSCompiler.exe.config
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.Web.Infrastructure.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\WebGrease.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.pdb
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\CaptchaMvc.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\EntityFramework.SqlServer.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\PagedList.Mvc.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Helpers.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Mvc.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Optimization.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.Razor.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Deployment.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\System.Web.WebPages.Razor.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Newtonsoft.Json.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Antlr3.Runtime.pdb
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csprojAssemblyReference.cache
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CoreCompileInputs.cache
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.csproj.CopyComplete
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.dll
+C:\backup\backup\Documents\Source Code\DuAnCuoiKhoa\DuAnCuoiKhoa\DuAnCuoiKhoa\obj\Debug\DuAnCuoiKhoa.pdb
